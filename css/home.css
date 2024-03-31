@@ -1,0 +1,163 @@
+body{
+    background-color: #fff;
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    .header-container{
+        width: 100%;
+        height: 500px;
+        background-color: #F8C195;
+    }
+        .navBar{
+            width: 90%;
+            height: 80px;
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0 0 30px;
+        }
+            .name ,.dealer{
+                font-size: xx-large;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+            }
+            .dealer{
+                color: #564E48;
+            }
+            .button{
+                /* padding: 10px 50px; */
+                /* background-color: purple; */
+                display: flex;
+                gap: 60px;
+                border-width: 0px;
+                /* border: solid 1px #F8C195; */
+            }
+            button{
+                background-color: #F8C195;
+                width: 100px;
+                height: 30px;
+                font-size: larger;
+                border: 1px solid #F8C195;
+            }
+            select{
+                background: none;
+                border: none;
+                font-size: larger;
+            }
+            select:hover ,.button:hover{
+                border: 1px solid #F8C195;
+            }
+        .content{
+            width: 100%;
+            height: 350px;
+            /* background-color: pink; */
+            display: flex;
+            justify-content: space-between;
+    
+        }
+            .description{
+                /* background-color: #fff; */
+                padding: 60px;
+                /* display: flex; */
+
+            }
+                .header{
+                    width: 280px;
+                    font-size: xx-large;
+                    font-family: fantasy ;
+                    margin: 20px 0 30px 20px;
+                }
+                .detail{
+                    width: 460px;
+                    font-size: x-large;
+                    font-family: math;
+                    margin: 0 0 20px 20px;
+                }
+                .shop{
+                    border-radius: 90px;
+                    background: #F2ECE7;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                    width: 100px;
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 0 20px;
+                }
+                .shop:hover {
+                    border: 1px solid #F8C195;
+                    background-color: #efa160;
+                    color: #fff;
+                }
+            .adv{
+                /* background-color: yellow; */
+                /* width: 500px; */
+                /* display: flex; */
+            }
+                .rubic{
+                    width: 650px;
+                    height: 420px;
+                    margin: -20px 60px 0 0 ;
+                }
+                .more{
+                    font-size: x-large;
+                    font-family: fantasy;
+                    margin: -30px 0 0 360px;
+                }
+            
+    .body-container{
+        /* width: 100%; */
+        height: 550px;
+        /* background-color: red; */
+        display: flex;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+        #header{
+            font-size: large;
+            text-align: center;
+            margin: 30px 0 50px 0;
+        }
+        .wrapper{
+            /* background-color: pink; */
+            /* padding: 0 200px; */
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 30px 0;
+            gap: 4px;
+        }
+            .box{
+                /* width: 300px; */
+                height: 340px;
+                padding: 0 1px;
+                background-color: #f3eded;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            }
+            .car{
+                width: 280px;
+                height: 250px;
+                object-fit: fill;
+            }
+            .carName{
+                font-weight: bold;
+                padding: 15px 10px;
+                font-size: large;
+            }
+            .price{
+                padding: 0 10px;
+            }
+    .bottom-container{
+        width: 100%;
+        height: 300px;
+        /* background-color: green; */
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }

@@ -1,0 +1,127 @@
+body{
+    /* background-color: rgb(233, 197, 125); */
+}
+    .container{
+        /* background-color: red; */
+        /* width: 100%; */
+        /* height: 500px; */
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+        .header{
+            /* background-color: greenyellow; */
+            display: flex;
+            width: 110px;
+            gap: 15px;
+            font-size: xx-large;
+            font-family: fantasy;
+            border: solid black;
+            border-width: 0 0 4px 0;
+            /* margin: 0 0 20px 0; */
+        }
+            .c{
+                color: #F8C195;
+            }
+        .title{
+            /* background-color: pink; */
+            display: flex;
+            gap: 185px;
+            padding: 40px 0 30px 20px;
+        }
+        .box{
+            background-color: #f4ecec;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            width: 95%;
+            /* height: 100px; */
+            padding: 4px;
+            display: flex;
+            gap: 100px;
+            /* justify-content: center; */
+            align-items: center;
+            margin: 0 0 10px 0;
+        }
+            .wrapper{
+                background-color: #e9e2e2;
+                display: flex;
+                width: 140px;
+                height: 110px;
+            }
+                .carPic{
+                width: 130px;
+                height: 110px;
+                }
+                .space{
+                    margin: 0 80px 0 0 ;
+                }
+                .Qbox{
+                    /* background-color: #F8C195; */
+                    width: 100px;
+                    height: 35px;    
+                    border: 1px solid black;
+                    display: flex;
+                    margin: 0 70px 0 92px;
+                }
+                    .Mbox ,.Mbox-w{
+                        width: 35px;
+                        height: 35px;
+                        background-color: #F8C195;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .Mbox:hover{
+                        background-color: #f9ad6e;
+                    }
+                    .Mbox-w{
+                        background-color: #fff;
+                        border: solid black;
+                        border-width: 0 1px;
+                    }
+            .remove{
+                /* width: 189px; */
+                /* height: 35px; */
+                background-color: rgb(215, 46, 46);
+                color: #fff;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                padding: 9px 15px;
+                border-radius: 3px;
+            }
+            .remove:hover{
+                background-color: rgb(201, 55, 55);
+                border: solid 1px rgb(116, 111, 111);
+            }
+            .total{
+                display: flex;
+                gap: 120px;
+                padding: 20px 0 30px 0;
+                align-items: center;
+            }
+                .price{
+                    font-size:x-large;
+                    font-weight: bolder;
+                }
+            .order{
+                background-color: #F8C195;
+                width: 120px;
+                padding: 10px 25px;
+                display: flex;
+                border-radius: 18px;
+                justify-content: center;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                color: #060606;
+                margin: 10px 400px;
+                border: none;
+            }
+            .order:hover{
+                background-color: #f1964b;
+                color: #fff;
+                
+            }
+            a{
+                color: black;
+                text-decoration: none;    
+            }

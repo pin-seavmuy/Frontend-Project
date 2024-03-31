@@ -1,0 +1,110 @@
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Garage Management System</title>
+        <link rel="stylesheet" href="./css/carDetail.css">
+        <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    </head>
+    <body>
+        <form>
+            <div class="header-container">
+                <div class="navBar">
+                    <a href="/home.html"><div class="name">Car <span class="dealer">Dealer</span></div></a>
+                    <div class="button">
+                        <button>Home</button>
+                        <select class="brand">
+                            <option disabled selected value>All Brands</option>
+                                <option>BMW</option>
+                                <option>Jeep</option>
+                                <option>Toyota</option>
+                                <option>Lexus</option>
+                        </select>
+                        <select class="part">
+                            <option disabled selected value>Car parts</option>
+                                <option>Door</option>
+                                <option>Engine</option>
+                        </select>
+                        <a href="./cart.html"><i class="fa fa-shopping-cart" id="cart" aria-hidden="true"></i></a>
+                        <img class="profile" src="./img/profile.jpg" alt="">
+                    </div>
+                </div>
+
+           
+            </div>
+
+            <div class="body-container">
+               <div class="box">
+                    <img class="car" id="carPic" src="./img/jeep wrangler.webp" alt="">
+                    <div class="text">The Wrangler is available in two body styles: two-door and four-door. It is also available in a variety of trim levels, 
+                        including Sport, Sahara, Rubicon, and Unlimited. The Wrangler is a popular choice for off-road enthusiasts. It is also a 
+                        popular choice for people who live in rural areas or who need a vehicle that can handle difficult terrain.
+                    </div>
+               </div>
+               <div class="box">
+                <div class="row1">
+                    <div class="carName">Jeep Wrangler</div>
+                    <div class="price">$ 32095</div>
+                </div>
+                <div class="speed">Top speed 180Km/h</div>
+                <div class="carBox">
+                    <div class="container">
+                        <img class="miniCar" onclick="document.getElementById('carPic').src='./img/jeep wrangler.webp'" src="./img/jeep wrangler.webp" alt="">
+                    </div>
+                    <div class="container">
+                        <img class="miniCar" onclick="document.getElementById('carPic').src='./img/white jeep wrangler.png'" src="./img/white jeep wrangler.png" alt="">
+                    </div>
+                    <div class="container">
+                        <img class="miniCar" onclick="document.getElementById('carPic').src='./img/green jeep wrangler.png'" src="./img/green jeep wrangler.png" alt="">
+                    </div>
+                    <div class="container">
+                        <img class="miniCar" onclick="document.getElementById('carPic').src='./img/red j wrangler.png'" src="./img/red j wrangler.png" alt="">
+                    </div>
+                </div>
+                <div class="color">
+                    <div class="speed">Choose color: </div>
+                    <select class="colors">
+                        <option disabled selected value>select</option>
+                            <option>black</option>
+                            <option>white</option>
+                            <option>navy</option>
+                            <option>red</option>
+                    </select>
+                </div>
+                <div class="color">
+                    <div class="speed">Quantity:</div>
+                    <div class="Qbox">
+                        <div class="Mbox">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        </div>
+                        <div class="Mbox-w">0 </div>
+                        <div class="Mbox">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="color">
+                    <div class="speed">Total price:</div>
+                    <div></div>
+                </div>
+                <div class="color">
+                    <div class="addCart">Add to cart</div>
+                    <a href="./carList.html"><div class="back">back</div></a>
+               </div>
+               </div>
+               
+               
+            </div>
+
+
+            <!-- <div class="bottom-container">
+                
+              
+                
+            </div> -->
+         </form>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    /* background-color: #F8C195; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+    .container{
+        /* background-color: #F8C195; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+    }
+        .box{
+            /* background-color: red; */
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            padding: 30px 0 0px 50px ;
+        }
+            .name ,.welcome{
+                font-size: xx-large;
+                font-family: fantasy;
+                padding: 0 0 30px 0;
+            }
+                span{
+                    color: #F8C195;
+                }
+            .loginBox{
+                width: 440px;
+                height: 530px;
+                background-color: #fff;
+                display: flex;
+                padding: 30px 0 0 20px;
+                margin: 10px 0px 0 30px ;
+                flex-direction: column;
+                gap: 30px;
+                box-shadow: 0px 4px 4px 0px rgba(201, 197, 197, 0.25);
+                border: solid 1px rgb(204, 194, 194);
+                border-radius: 3px;
+            }
+                .welcome{
+                    color: #4f4843;
+                    font-size: x-large;
+                    /* padding: 0px 0 -10px 0; */
+                }
+                .title{
+                    font-size: x-large;
+                    font-family: fantasy;
+                    /* padding: 0 0 0 10px; */
+                    margin: -35px 0 0px 0;
+                }
+                input{
+                    width: 410px;
+                    height: 35px;
+                    border-radius: 5px;
+                    border: 1px solid rgb(187, 180, 180);
+                    padding: 10px 10px;
+                    /* margin: 0 0 20px 0; */
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                }
+                .checkbox{
+                    display: flex;
+                    /* background-color: green; */
+                    justify-content: center;
+                    align-items: center;
+                    gap: 180px;
+                    /* font-size: small; */
+                    
+                }
+                    .check{
+                        width: 15px;
+                        height: 15px;
+                        margin: 0 -170px 0 -40px;
+                    }
+                    .login{
+                        width: 80px;
+                        height: 30px;
+                        color: #3c3a3a;
+                        background-color: #F8C195;
+                        border-radius: 20px;
+                        border: 1px solid rgb(131, 129, 129);
+                        padding: 10px 10px 25px 10px;
+                        /* font-size: large; */
+                    }
+                .signupBox{
+                    display: flex;
+                    align-items: center;
+                    gap: 150px;
+                    padding: 0 10px;
+                }
+                    .signup{
+                        font-size: larger;
+                        font-family: fantasy;
+                        color: #F8C195;
+                        
+                    }
+        .rect{
+            background-color: #F8C195;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 500px 0px 0px 500px;
+        }
+            .image{
+                width: 600px;
+                height: 500px;
+                position: relative;
+                top: 100px;
+                right: 180px;
+            }
+            .quote{
+                font-size: x-large;
+                font-family: fantasy;
+                padding: 80px 0 0 160px;
+            }
