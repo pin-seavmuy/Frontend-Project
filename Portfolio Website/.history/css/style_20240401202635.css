@@ -115,7 +115,6 @@
 }
 .site-main .tool-area .first-row .col-lg-4 .single-tool > img:hover{
     /* filter: brightness(0.15); */
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 .site-main .tool-area .experience-area span{
     display: block;
@@ -201,8 +200,8 @@
 .site-main .project-area .grid .our-project > title h4{
     font: normal 700 25px/12px var(--roboto);
 }
-.site-main .project-area .grid .our-project .img a:hover img{
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+site-main .project-area .grid .our-project .img a:hover{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1);
 }
 
 /* End Project area */
