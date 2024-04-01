@@ -2,9 +2,6 @@
 @import url(./fonts.css);
 @import url(./partial/variable.css);
 
-/* globle styling*/
-@import url(./partial/_globle.css);
-
 /* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand{
@@ -36,7 +33,7 @@
 
 /* Banner area */
 .site-main .site-banner{
-    background: url(../img/banner/home-banner.png) no-repeat;
+    background: url(../img/banner/home-banner.png) ;
     /* background-position: 0% 50%; */
 }
 .site-main .site-banner .site-title h3{
@@ -60,7 +57,6 @@
 }
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
-    width: 30rem;
+    width: 90rem;
 }
-
 /* End Banner area */

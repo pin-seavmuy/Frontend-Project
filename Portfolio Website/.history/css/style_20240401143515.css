@@ -3,8 +3,7 @@
 @import url(./partial/variable.css);
 
 /* globle styling*/
-@import url(./partial/_globle.css);
-
+@import url(.);
 /* start navigation */
 
 .header_area .main-menu .navbar .navbar-brand{
