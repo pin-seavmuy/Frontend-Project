@@ -256,18 +256,9 @@
 }
 .site-main .subscribe-area .subscribe form .input-textbox input{
     width: 400px;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
     background: transparent;
-    color: whitesmoke;
-    font: normal 500 17px/20px var(--roboto);
-}
-.site-main .subscribe-area .subscribe form .input-textbox input::placeholder{
-    color: whitesmoke;
-}
-.site-main .subscribe-area .subscribe form .btn-submit button{
-    background: whitesmoke;
-    color: black;
-    padding: 1rem 2rem;
+    color: ;
 }
 /* End subscribe area */
