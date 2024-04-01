@@ -71,8 +71,8 @@
     padding: 15rem 5rem;
 }
 .site-main .about-area .pic >img {
-    width: 90%;
-    /* border: 1px solid black; */
+    width: 200px;
+    border: 1px solid black;
 }
 .site-main .about-area .about-title h2 > span{
    display: block;

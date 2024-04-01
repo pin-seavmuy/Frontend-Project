@@ -70,17 +70,13 @@
 .site-main .about-area{
     padding: 15rem 5rem;
 }
-.site-main .about-area .pic >img {
-    width: 90%;
-    /* border: 1px solid black; */
-}
 .site-main .about-area .about-title h2 > span{
    display: block;
    font: normal bold 49px/60px var(--roboto); 
    letter-spacing: 15px;
 }
 .site-main .about-area .about-title .paragraph > p{
-    /* padding: 4rem 0; */
-    font-size: 20px;
+    padding: 4rem 0;
+    font-size: 0px;
 }
 /* End About area */

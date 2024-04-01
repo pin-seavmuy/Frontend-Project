@@ -14,7 +14,7 @@
     padding: 1rem 5rem;
 }
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 20px/2px var(--roboto);
+    font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--tittle-color);
@@ -60,27 +60,10 @@
 }
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
-    width: 40rem;
+    width: 35rem;
     padding-left: 180px;
 }
 
 /* End Banner area */
 
-/* Start About area */
-.site-main .about-area{
-    padding: 15rem 5rem;
-}
-.site-main .about-area .pic >img {
-    width: 90%;
-    /* border: 1px solid black; */
-}
-.site-main .about-area .about-title h2 > span{
-   display: block;
-   font: normal bold 49px/60px var(--roboto); 
-   letter-spacing: 15px;
-}
-.site-main .about-area .about-title .paragraph > p{
-    /* padding: 4rem 0; */
-    font-size: 20px;
-}
-/* End About area */
+/* Start Banner area */
