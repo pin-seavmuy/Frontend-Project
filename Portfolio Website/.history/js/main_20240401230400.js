@@ -29,10 +29,10 @@ $(document).ready(function(){
         dots:true,
         responsive:{
             0: {
-                items: 1
-            },
+                itesm: 1
+            }
             544: {
-                items: 2
+                
             }
         }
     })

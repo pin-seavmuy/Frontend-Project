@@ -28,12 +28,7 @@ $(document).ready(function(){
         autoplay:true,
         dots:true,
         responsive:{
-            0: {
-                items: 1
-            },
-            544: {
-                items: 2
-            }
+            0:
         }
     })
     
