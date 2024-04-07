@@ -663,10 +663,8 @@ form.search button:hover {
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--secondary-dark-colir);
 }
-.swiper-button-prev .swiper-button-next {
-    font-size: var(--font-small);
-    color: green;
-    background-color: red;
+.swiper-button-prev, .swiper-button-next {
+    font-size: var();
 }
 
 

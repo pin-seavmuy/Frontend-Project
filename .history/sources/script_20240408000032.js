@@ -40,17 +40,3 @@ function toggle(e) {
     this.closest('.has-child').classList.toggle('expand')
 }
 
-//slider/
-document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.swiper', {
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-});
-  

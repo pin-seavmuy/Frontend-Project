@@ -666,7 +666,6 @@ form.search button:hover {
 .swiper-button-prev .swiper-button-next {
     font-size: var(--font-small);
     color: green;
-    background-color: red;
 }
 
 

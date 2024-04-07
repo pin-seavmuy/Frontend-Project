@@ -663,11 +663,6 @@ form.search button:hover {
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--secondary-dark-colir);
 }
-.swiper-button-prev .swiper-button-next {
-    font-size: var(--font-small);
-    color: green;
-    background-color: red;
-}
 
 
 
@@ -835,9 +830,5 @@ form.search button:hover {
     .dpt-menu .has-child:hover .mega {
         display: flex;
     }
-    /* slider */
-    .slider > div > .wrapper {
-        width: calc(100% - (300px + 2em));
-        margin-left: auto;
-      }
+    /* */
 }

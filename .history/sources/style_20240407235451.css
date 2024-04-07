@@ -618,22 +618,13 @@ form.search button:hover {
  /* ----------------------------
   *  02. SLIDER
   * -------------------------- */
-
+  .slider > div > .wrapper {
+    width: calc(100% - (300px + 2em));
+    margin-left: auto;
+  }
   .slider .item {
     position: relative;
     height: 474px;
-  }
-  .slider .item::before {
-    content: '';
-    position: absolute;
-    top: 30%;
-    left: 0;
-    width: 450px;
-    height: 300px;
-    background-color: var(--white-color);
-    z-index: 1;
-    filter: blur(50px);
-    opacity: 0.8;
   }
   .slider .text-content {
     position: relative;
@@ -656,17 +647,7 @@ form.search button:hover {
     column-gap: var(--light-text-color);
 }
 .text-content :where(h2,h3) span:last-child {
-    color: var(--secondary-dark-colir);
-    text-transform: uppercase;
-    letter-spacing: -1px;
-}
-.swiper-pagination .swiper-pagination-bullet-active {
-    background-color: var(--secondary-dark-colir);
-}
-.swiper-button-prev .swiper-button-next {
-    font-size: var(--font-small);
-    color: green;
-    background-color: red;
+    color: var(se);
 }
 
 
@@ -835,9 +816,4 @@ form.search button:hover {
     .dpt-menu .has-child:hover .mega {
         display: flex;
     }
-    /* slider */
-    .slider > div > .wrapper {
-        width: calc(100% - (300px + 2em));
-        margin-left: auto;
-      }
 }
