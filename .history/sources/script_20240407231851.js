@@ -24,9 +24,7 @@ const menuButton = document.querySelector('.trigger'),
 menuButton.addEventListener('click', function() {
     addclass.classList.toggle('showmenu')
 })
-closeButton.addEventListener('click', function() {
-    addclass.classList.remove('showmenu')
-})
+closeButton.addEventListener('')
 
 
 //show sub menu on mobile

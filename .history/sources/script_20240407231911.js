@@ -25,7 +25,7 @@ menuButton.addEventListener('click', function() {
     addclass.classList.toggle('showmenu')
 })
 closeButton.addEventListener('click', function() {
-    addclass.classList.remove('showmenu')
+    addclass.classList
 })
 
 

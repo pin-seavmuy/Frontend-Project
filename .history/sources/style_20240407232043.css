@@ -511,11 +511,7 @@ form.search button:hover {
     transition: transform .4s, visibility .4s;
     will-change: transform, visibility;
 }
-.showmenu .site-off {
-    transform: translateX(0);
-    visibility: visible;
-    transform: transform .4s 0s, visibility 0s 0s;
-}
+.showmenu .site-off
 .off-canvas {
     width: var(--percent100);
     height: var(--percent100);

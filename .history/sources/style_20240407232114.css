@@ -514,7 +514,7 @@ form.search button:hover {
 .showmenu .site-off {
     transform: translateX(0);
     visibility: visible;
-    transform: transform .4s 0s, visibility 0s 0s;
+    transform: transform .4s 0s, visibility;
 }
 .off-canvas {
     width: var(--percent100);
