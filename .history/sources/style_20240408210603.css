@@ -824,10 +824,6 @@ form.search button:hover {
     background-position-y: top;
     background-repeat-y: no-repeat;
 }
-/* to set width of stars */
-.products .item:where(:nth-child(3),:nth-child(3) .stars) {
-    width: 64px;
-}
 .products h3 {
     font-family: 'Rubik';
     font-size: 1em;
@@ -943,11 +939,7 @@ form.search button:hover {
     opacity: 0;
     visibility: hidden;
     will-change: opacity;
-    transition: all .2s ease-in-out;
-}
-.products.main .item:hover .footer {
-    opacity: 1;
-    visibility: visible;
+    trans
 }
 .products.main .footer ul {
     list-style: disc;
@@ -1155,7 +1147,7 @@ form.search button:hover {
         max-height: 373px;
     }
 
-    .products.main .item{
+    .products.mini {
         flex: 0 0 25%;
     }
 }

@@ -825,9 +825,7 @@ form.search button:hover {
     background-repeat-y: no-repeat;
 }
 /* to set width of stars */
-.products .item:where(:nth-child(3),:nth-child(3) .stars) {
-    width: 64px;
-}
+.products .item:where(:nth-child(3),:n)
 .products h3 {
     font-family: 'Rubik';
     font-size: 1em;
