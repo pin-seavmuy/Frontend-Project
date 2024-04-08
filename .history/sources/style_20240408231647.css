@@ -1249,7 +1249,6 @@ form.search button:hover {
     /* footer */
     .newsletter .box {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        jus
     }
 }

@@ -1246,10 +1246,6 @@ form.search button:hover {
         flex: 0 0 25%;
     }
 
-    /* footer */
-    .newsletter .box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    /*
+
 }

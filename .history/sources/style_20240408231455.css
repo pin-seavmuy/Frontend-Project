@@ -1040,8 +1040,7 @@ form.search button:hover {
     color: var(--primary-color);
 }
 .newsletter form {
-    max-width: 500px;
-    width: var(--percent100);
+    
 }
 
 
@@ -1244,12 +1243,5 @@ form.search button:hover {
 
     .products.main .item{
         flex: 0 0 25%;
-    }
-
-    /* footer */
-    .newsletter .box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 }
