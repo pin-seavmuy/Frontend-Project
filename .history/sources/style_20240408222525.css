@@ -988,9 +988,7 @@ form.search button:hover {
 .banner h3 span {
     font-size: 80%;
 }
-.banner .primary-button {
-    z-index: 3;
-}
+.banner .primary-button
 
 
 @media screen and (min-width: 481px) {
