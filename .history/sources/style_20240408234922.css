@@ -1084,8 +1084,7 @@ form.search button:hover {
     margin: 0 0 1em 0.75em;
 }
 .footer-info .mini-text {
-    margin-top: 2em;
-    text-align: center;
+    
 }
 
 @media screen and (min-width: 481px) {

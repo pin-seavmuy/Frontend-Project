@@ -1080,13 +1080,7 @@ form.search button:hover {
 .footer-info ul li a:hover {
     background-color: var(--border-color);
 }
-.footer-info .logo a {
-    margin: 0 0 1em 0.75em;
-}
-.footer-info .mini-text {
-    margin-top: 2em;
-    text-align: center;
-}
+.footer
 
 @media screen and (min-width: 481px) {
     .products.main .item {

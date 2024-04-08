@@ -1083,10 +1083,7 @@ form.search button:hover {
 .footer-info .logo a {
     margin: 0 0 1em 0.75em;
 }
-.footer-info .mini-text {
-    margin-top: 2em;
-    text-align: center;
-}
+.foo
 
 @media screen and (min-width: 481px) {
     .products.main .item {

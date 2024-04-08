@@ -1081,11 +1081,7 @@ form.search button:hover {
     background-color: var(--border-color);
 }
 .footer-info .logo a {
-    margin: 0 0 1em 0.75em;
-}
-.footer-info .mini-text {
-    margin-top: 2em;
-    text-align: center;
+    margin: 0 0;
 }
 
 @media screen and (min-width: 481px) {
