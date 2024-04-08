@@ -991,17 +991,12 @@ form.search button:hover {
 .banner .primary-button {
     z-index: 3;
 }
-
 .mini-links ul {
     font-size: var(--font-small);
     color: var(--light-text-color);
-    margin-top: 1em;
-}.banners .second-links {
-    margin-top: 2em;
+    margin-top: ;
 }
-.mini-links li a:hover {
-    text-decoration: underline;
-}
+
 
 
 

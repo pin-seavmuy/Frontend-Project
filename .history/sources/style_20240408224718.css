@@ -992,27 +992,11 @@ form.search button:hover {
     z-index: 3;
 }
 
-.mini-links ul {
-    font-size: var(--font-small);
-    color: var(--light-text-color);
-    margin-top: 1em;
-}.banners .second-links {
-    margin-top: 2em;
-}
-.mini-links li a:hover {
-    text-decoration: underline;
-}
 
 
 
-.banners .product-categories .item {
-    display: flex;
-    padding: 1.5em;
-}
-.banners .product-categories .image {
-    max-width: 150px;
-}
 
+.banners .product-categories
 
 
 @media screen and (min-width: 481px) {

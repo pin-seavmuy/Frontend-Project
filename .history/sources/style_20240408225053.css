@@ -997,11 +997,9 @@ form.search button:hover {
     color: var(--light-text-color);
     margin-top: 1em;
 }.banners .second-links {
-    margin-top: 2em;
+    mar
 }
-.mini-links li a:hover {
-    text-decoration: underline;
-}
+
 
 
 
