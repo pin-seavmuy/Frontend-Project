@@ -677,9 +677,7 @@ form.search button:hover {
     opacity: .25;
     transition: opacity .3s;
 }
-.brands .item a:hover img {
-    opacity: 1;
-}
+.brands .item a:ho
 
 
   @media screen and (min-width: 992px) {

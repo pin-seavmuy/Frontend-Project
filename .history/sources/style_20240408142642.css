@@ -675,10 +675,7 @@ form.search button:hover {
 }
 .brands .item img {
     opacity: .25;
-    transition: opacity .3s;
-}
-.brands .item a:hover img {
-    opacity: 1;
+    
 }
 
 

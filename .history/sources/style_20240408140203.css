@@ -663,23 +663,12 @@ form.search button:hover {
 .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--secondary-dark-colir);
 }
+div.swiper-button-prev .swiper-button-next {
+    font-size: var(--font-small);
+    color: green;
+    background-color: red;
+}
 
-
-/*-----------------------------------------
-  *  03. BRANDS
-  * -------------------------- */
-.brands .wrapper {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 2em 0;
-}
-.brands .item img {
-    opacity: .25;
-    transition: opacity .3s;
-}
-.brands .item a:hover img {
-    opacity: 1;
-}
 
 
   @media screen and (min-width: 992px) {
