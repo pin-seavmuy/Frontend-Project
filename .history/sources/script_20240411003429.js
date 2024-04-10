@@ -102,5 +102,5 @@ for (let x = 0 ; x < stocks.length; x++) {
     sold = stocks[x].querySelector('.qty-sold').innerHTML,
     percent = sold*100/stock;
 
-    stocks[x].querySelector('.available').style.width = percent + '%';
+    stocks[x].querySelector('.availble').style.width = percent + '%';
 }

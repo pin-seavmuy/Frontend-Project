@@ -1618,9 +1618,7 @@ form label {
     font-size: var(--font-small);
     padding: 0.5em 0.25em;
 }
-.related-products .content .stock {
-    margin-top: auto;
-}
+.related-products
 
 @media screen and (min-width: 481px) {
     .products.main .item {
