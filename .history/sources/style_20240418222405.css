@@ -1848,16 +1848,16 @@ input[type="range"]::-moz-range-thumb {
     visibility: visible;
     opacity: 1;
 }
-:is(.mini-cart .products .products.cart, .checkout .products) .thumbnail img {
+:is(.mini-cart .products .products.cart) .thumbnail img {
     transform: none;
     width: 90%;
-    height: 90px;
+    height: 10px;
     /* padding-bottom: 20px; */
 }
 .products :where(.image, .thumbnail) img {
     transition: transform .3s;
-    /* width: 65px; */
-    /* height: 65px; */
+    width: 65px;
+    height: 65px;
   }
 .mini-cart .products img {
     /* width: var(--percent100); */
@@ -1887,7 +1887,7 @@ input[type="range"]::-moz-range-thumb {
     max-height: 450px;
     overflow: auto;
 }
-:where(.mini-cart, .products.cart, .checkout) .thumbnail {
+:where(.mini-cart, .products.cart, .ch) .thumbnail {
     position: relative;
     width: 80px;
     height: 80px;
@@ -2155,13 +2155,6 @@ input[type="range"]::-moz-range-thumb {
 .summary-totals li:not(:last-child) span:first-child {
     color: var(--light-text-color);
 }
-.summary-order .price {
-    display: flex;
-    flex-direction: column;
-    color: var(--light-text-color);
-    font-size: 0.85em;
-    margin-top: 0.5em;
-}
 /* ---------------------
 *  14. MODAL
 * -------------------------- */
@@ -2224,14 +2217,14 @@ input[type="range"]::-moz-range-thumb {
     }
     .products.mini,
     .banner .row,
-    .widgets .row,
-    .checkout .item {
+    .widgets .row {
         flex: 0 0 50%;
     }
     .products.main .item {
         flex: 0 0 33.3333%;
     }
-    .products.one .row {
+    .products.one .row,
+    .checkout .item {
         flex: 0 0 50%;
         width: 50%;
     }

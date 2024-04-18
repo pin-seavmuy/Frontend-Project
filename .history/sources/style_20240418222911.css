@@ -2224,14 +2224,14 @@ input[type="range"]::-moz-range-thumb {
     }
     .products.mini,
     .banner .row,
-    .widgets .row,
-    .checkout .item {
+    .widgets .row {
         flex: 0 0 50%;
     }
     .products.main .item {
         flex: 0 0 33.3333%;
     }
-    .products.one .row {
+    .products.one .row,
+    .checkout .item {
         flex: 0 0 50%;
         width: 50%;
     }
