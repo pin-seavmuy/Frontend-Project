@@ -2223,9 +2223,7 @@ input[type="range"]::-moz-range-thumb {
     font-size: var(--font-small);
     padding-block-end: 0.5em 1em;
     border-radius: 3px;
-    z-index: 999;
-    background-color: var(--light-bg-color);
-    
+    z-index: ;
 }
 
 /* ---------------------

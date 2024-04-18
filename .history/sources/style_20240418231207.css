@@ -2219,13 +2219,7 @@ input[type="range"]::-moz-range-thumb {
     bottom: 6em;
     right: 2em;
     text-align: center;
-    gap: 0;
-    font-size: var(--font-small);
-    padding-block-end: 0.5em 1em;
-    border-radius: 3px;
-    z-index: 999;
-    background-color: var(--light-bg-color);
-    
+    gap: ;
 }
 
 /* ---------------------

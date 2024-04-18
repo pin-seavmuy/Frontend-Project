@@ -1182,7 +1182,7 @@ form.search button:hover {
     visibility: hidden;
     opacity: 0;
 }
-:where(.showmenu .showmodal) .overlay {
+.showmenu .overlay {
     opacity: 1;
     visibility: inherit;
 }
@@ -2182,13 +2182,10 @@ input[type="range"]::-moz-range-thumb {
     visibility: hidden;
     opacity: 0;
     transform: translateY(20px);
-    transition: transform .2s, visibility .2s, opacity .2s;
+    transition: transform .2s, visibility .2s opacity .2s;
 }
 .showmodal .modal {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
-    transition: transform 1s, visibility 1s, opacity 1s;
+
 }
 .modal .image {
     position: relative;
@@ -2212,20 +2209,6 @@ input[type="range"]::-moz-range-thumb {
     position: absolute;
     top: 1em;
     right: 1em;
-}
-
-.backtotop a {
-    position: fixed;
-    bottom: 6em;
-    right: 2em;
-    text-align: center;
-    gap: 0;
-    font-size: var(--font-small);
-    padding-block-end: 0.5em 1em;
-    border-radius: 3px;
-    z-index: 999;
-    background-color: var(--light-bg-color);
-    
 }
 
 /* ---------------------

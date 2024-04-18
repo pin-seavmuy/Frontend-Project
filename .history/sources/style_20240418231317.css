@@ -2224,8 +2224,7 @@ input[type="range"]::-moz-range-thumb {
     padding-block-end: 0.5em 1em;
     border-radius: 3px;
     z-index: 999;
-    background-color: var(--light-bg-color);
-    
+    bac
 }
 
 /* ---------------------
